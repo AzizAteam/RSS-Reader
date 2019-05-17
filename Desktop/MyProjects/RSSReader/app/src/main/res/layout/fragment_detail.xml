@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Controllers.Fragments.HomeFragment">
+
+    <TextView
+        android:id="@+id/article_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#000000"
+        android:textSize="30dp"
+        android:text="TITLE"/>
+
+    <TextView
+        android:id="@+id/author"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/article_title"
+        android:layout_centerHorizontal="true"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="AUTHOR"
+        android:textSize="15dp"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/article_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="20dp"
+        android:text="Article Content"
+        android:textColor="#000000"
+        />
+
+    <ImageView
+        android:id="@+id/article_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="30dp"
+        android:minWidth="30dp"
+        android:maxHeight="60dp"
+        android:maxWidth="60dp"
+        android:layout_below="@+id/article_content"
+        android:layout_centerHorizontal="true"
+        android:src="@android:drawable/ic_menu_report_image"/>
+
+    <TextView
+        android:id="@+id/publish_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="30dp"
+        android:text="20/04/2019"
+        android:textColor="#000000"/>
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:src="@mipmap/ic_launcher_round"
+        android:maxWidth="30dp"
+        android:maxHeight="30dp"
+        android:minWidth="10dp"
+        android:minHeight="10dp"/>
+
+</RelativeLayout>

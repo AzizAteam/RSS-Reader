@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Controllers.Fragments.SettingsFragment">
+
+    <TextView
+        android:id="@+id/settings_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="SETTINGS"
+        android:textSize="30dp"
+        android:layout_marginTop="15dp"/>
+    <Button
+        android:id="@+id/log_out_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/button_radius_primary_color"
+        android:textColor="@color/primaryLightColor"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="LOG OUT"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/language_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/log_out_button"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/button_radius_accent_color"
+        android:textColor="@color/primaryLightColor"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="LANGUAGE"
+        android:textSize="20dp" />
+    <Button
+        android:id="@+id/profile_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/language_button"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/button_radius_accent_color2"
+        android:textColor="@color/primaryLightColor"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="PROFILE"
+        android:textSize="20dp" />
+
+</RelativeLayout>

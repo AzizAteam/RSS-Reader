@@ -1,0 +1,38 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">RSS Reader</string>
+    <string name="main_activity_description">Stay tuned with all the news</string>
+
+    <string name="login">Log In</string>
+    <string name="signup">Sign Up</string>
+
+    <string name="facebook_application_id" translatable="false">409064489644874</string>
+    <string name="facebook_login_protocol_scheme" translatable="false" tools:ignore="UnusedResources">fb409064489644874</string>
+    <!-- NOTIFICATION SERVICE -->
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <string name="notification_title">You have received a notification</string>
+
+    <!-- MAIN ACTIVITY -->
+    <string name="error_not_connected">You are not connected</string>
+    <string name="error_authentication_canceled">Authentification canceled&#8230;</string>
+    <string name="error_no_internet">No internet connection</string>
+    <string name="error_unknown_error">An error has occurred&#8230;</string>
+    <string name="connection_succeed">Connection succeeded</string>
+    <string name="button_login_text_logged">Login</string>
+    <string name="button_login_text_not_logged">Sign Up</string>
+
+    <!-- LOGIN ACTIVITY -->
+    <string name="toolbar_title_login_activity">Profile</string>
+    <string name="text_input_username">User Name</string>
+    <string name="text_view_email">Email Address</string>
+    <string name="button_update_account">Update Account</string>
+    <string name="button_delete_account">Delete Account</string>
+    <string name="button_sign_out_account">Sign Out</string>
+    <string name="info_no_email_found">No Email Address Found</string>
+    <string name="info_no_username_found">No Username Found</string>
+    <string name="popup_message_confirmation_delete_account">Delete Account?</string>
+    <string name="popup_message_choice_yes">Yes</string>
+    <string name="popup_message_choice_no">No</string>
+    <string name="bottom_navigation_menu_home">Home</string>
+    <string name="bottom_navigation_menu_setting">Setting</string>
+    <string name="bottom_navigation_menu_readlater">Read Later</string>
+</resources>
